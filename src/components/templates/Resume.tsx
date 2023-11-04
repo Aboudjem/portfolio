@@ -251,7 +251,7 @@ function Resume() {
             {/* <!-- Left Col--> */}
             <div>
               <div className="border-b border-[#494C5F] pb-3">
-                <h3 className="text-borderl-500 text-2xl">Skills</h3>
+                <h1 className="text-borderl-500 text-2xl">Skills</h1>
               </div>
               <ul className="mt-7 flex flex-wrap gap-3">
                 <li className="bg-[#16213B] block px-4 py-3 hover:bg-new-500 hover:text-interface-100 transition rounded-md text-white text-xl">
@@ -307,9 +307,9 @@ function Resume() {
             {/* <!-- Right Col--> */}
             <div>
               <div className="border-b border-[#494C5F] pb-3">
-                <h3 className="text-borderl-500 text-2xl">
+                <h2 className="text-borderl-500 text-2xl">
                   Tools I use every day
-                </h3>
+                </h2>
               </div>
               <ul className="mt-7 flex flex-wrap gap-x-12 gap-y-7 tools-align-center">
                 <li className="bg-[#16213B] hover:bg-new-500 transition rounded-md">

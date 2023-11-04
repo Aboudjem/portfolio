@@ -12,9 +12,9 @@ function Introduction() {
         <div className="flex flex-col gap-10 lg:flex-row lg:items-center pb-20">
           {/* <!-- Left --> */}
           <div className="lg:w-1/2">
-            <h1 className="text-5xl leading-snug xl:text-[66px] mb-8 xl:leading-normal font-bold text-white topdiv">
-              <span className="toptext"> Hey, I am</span> <br />
-              <span className="text-new-500">Adam Boudjemaa</span> <br />
+            <div className="text-5xl leading-snug xl:text-[66px] mb-8 xl:leading-normal font-bold text-white topdiv">
+              <h1 className="toptext">Hey, I am</h1>
+              <h2 className="text-new-500">Adam Boudjemaa</h2>
               <span
                 className="inline-block"
                 style={{
@@ -24,7 +24,7 @@ function Introduction() {
               >
                 <span className="toptext2">Blockchain Lead</span>
               </span>
-            </h1>
+            </div>
             <p className="text-2xl text-borderl-500 mb-4 toppara">
               Turn your ideas into reality with trusted <br /> top-rated
               blockchain expertise.
