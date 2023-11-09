@@ -57,13 +57,51 @@ function Introduction() {
               </a>
             </div>
             <div className="pt-14">
-              <p className="text-base text-interface-200">
+              <p className="text-base text-white">
+                With{' '}
                 <span className="text-new-500 font-semibold text-xl">
                   7 years
                 </span>{' '}
-                of expertise, with{' '}
-                <span className="text-new-500 font-semibold text-xl">500+</span>{' '}
-                smart contracts successfully deployed.
+                in{' '}
+                <span className="text-new-500 font-semibold text-xl">
+                  blockchain
+                </span>
+                , my journey includes:
+                <ul className="list-disc pl-8 mt-4 text-white">
+                  <li>
+                    Expertise in{' '}
+                    <span className="text-new-500 font-semibold text-xl">
+                      EVM
+                    </span>{' '}
+                    and{' '}
+                    <span className="text-new-500 font-semibold text-xl">
+                      Solidity
+                    </span>
+                    , enhancing smart contracts.
+                  </li>
+                  <li>
+                    Key player in{' '}
+                    <span className="text-new-500 font-semibold text-xl">
+                      DeFi
+                    </span>{' '}
+                    with{' '}
+                    <span className="text-new-500 font-semibold text-xl">
+                      ERC6960
+                    </span>{' '}
+                    and{' '}
+                    <span className="text-new-500 font-semibold text-xl">
+                      ERC3643{' '}
+                    </span>
+                    standards.
+                  </li>
+                  <li>
+                    Contributed to{' '}
+                    <span className="text-new-500 font-semibold text-xl">
+                      1000+
+                    </span>{' '}
+                    smart contracts, supporting blockchain progress.
+                  </li>
+                </ul>
               </p>
             </div>
           </div>

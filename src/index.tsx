@@ -1,17 +1,20 @@
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
 import React from 'react';
+import { createRoot } from 'react-dom/client';
+import App from './App';
+import './index.css';
 
-const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
-);
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+// Get the element with the ID 'root'
+const container = document.getElementById('root');
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+// Check if the container is not null
+if (container !== null) {
+  const root = createRoot(container); // Create a root only if container is not null
+  root.render(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  );
+} else {
+  // Handle the error if the container is null
+  console.error('Failed to find the root element');
+}

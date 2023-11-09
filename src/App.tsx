@@ -1,12 +1,14 @@
 import './App.css';
+
+import React, { Suspense, lazy } from 'react';
 import Introduction from './components/templates/Introduction';
 import Projects from './components/templates/Projects';
 import Resume from './components/templates/Resume';
 import Services from './components/templates/Services';
-import CallToAction from './components/organisms/CallToAction';
 import SocialLinks from './components/organisms/SocialLinks';
 
-import Footer from './components/organisms/Footer';
+const CallToAction = lazy(() => import('./components/organisms/CallToAction'));
+const Footer = lazy(() => import('./components/organisms/Footer'));
 
 function App() {
   return (
@@ -32,8 +34,14 @@ function App() {
       {/* <!-- Grid Masonry End --> */}
 
       {/* <!-- CTA  --> */}
-      <CallToAction />
-      <Footer />
+      <Suspense fallback={<div>Loading Footer...</div>}>
+        <CallToAction />
+      </Suspense>
+
+      {/* <!-- Footer --> */}
+      <Suspense fallback={<div>Loading Footer...</div>}>
+        <Footer />
+      </Suspense>
     </div>
   );
 }
