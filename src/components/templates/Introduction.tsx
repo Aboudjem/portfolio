@@ -1,4 +1,6 @@
-import React from 'react';
+import { faTelegramPlane } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Introduction() {
   return (
@@ -12,9 +14,9 @@ function Introduction() {
         <div className="flex flex-col gap-10 lg:flex-row lg:items-center pb-20">
           {/* <!-- Left --> */}
           <div className="lg:w-1/2">
-            <h1 className="text-5xl leading-snug xl:text-[66px] mb-8 xl:leading-normal font-bold text-white topdiv">
-              <span className="toptext"> Hey, I am</span> <br />
-              <span className="text-new-500">Adam Boudjemaa</span> <br />
+            <div className="text-5xl leading-snug xl:text-[66px] mb-8 xl:leading-normal font-bold text-white topdiv">
+              <h1 className="toptext">Hey, I am</h1>
+              <h2 className="text-new-500">Adam Boudjemaa</h2>
               <span
                 className="inline-block"
                 style={{
@@ -24,7 +26,7 @@ function Introduction() {
               >
                 <span className="toptext2">Blockchain Lead</span>
               </span>
-            </h1>
+            </div>
             <p className="text-2xl text-borderl-500 mb-4 toppara">
               Turn your ideas into reality with trusted <br /> top-rated
               blockchain expertise.
@@ -36,7 +38,10 @@ function Introduction() {
                 className="btn1 bg-telegram text-interface-100 py-4 rounded-lg inline-flex justify-center items-center font-medium transition-all ml-2"
               >
                 <span>Telegram</span>
-                <i className="fab fa-telegram-plane ml-2"></i>
+                <FontAwesomeIcon
+                  icon={faTelegramPlane}
+                  style={{ margin: '0 8px' }}
+                />
               </a>
 
               {/* Email Button */}
@@ -44,8 +49,11 @@ function Introduction() {
                 href="mailto:adam@smart-contracts-developer.com"
                 className="btn1 bg-email text-interface-100 py-4 rounded-lg inline-flex justify-center items-center font-medium transition-all ml-2"
               >
-                <span>Email</span>
-                <i className="fas fa-envelope ml-2"></i>
+                <span>Email </span>
+                <FontAwesomeIcon
+                  icon={faEnvelope}
+                  style={{ margin: '0 8px' }}
+                />
               </a>
             </div>
             <div className="pt-14">
