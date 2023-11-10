@@ -21,8 +21,7 @@ function Services() {
           </div>
           <div className="xl:col-span-3">
             <p className="bchainpara text-xl text-white">
-              Navigating the world of smart contracts, EVM and Solidity with
-              precision. Let's revolutionize blockchain solutions together.
+              Crafting end-to-end DApp solutions, let’s innovate together! 🚀
             </p>
           </div>
         </div>

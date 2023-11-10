@@ -15,7 +15,7 @@ function Introduction() {
           {/* <!-- Left --> */}
           <div className="lg:w-1/2">
             <div className="topdiv mb-8 text-5xl font-bold leading-snug text-white xl:text-[66px] xl:leading-normal">
-              <h1 className="toptext">Hey, I am</h1>
+              <h1 className="toptext2">Smart Contracts Developer</h1>
               <h2 className="text-new-500">Adam Boudjemaa</h2>
               <span
                 className="inline-block"
@@ -24,12 +24,12 @@ function Introduction() {
                     "url('assets/images/blockchain-background/wide-line.svg') no-repeat bottom"
                 }}
               >
-                <span className="toptext2">Blockchain Lead</span>
+                <span className="toptext2">Solidity | Web3</span>
               </span>
             </div>
             <p className="text-borderl-500 toppara mb-4 text-2xl">
-              Turn your ideas into reality with trusted <br /> top-rated
-              blockchain expertise.
+              Realize blockchain potential with a developer trusted by industry
+              leaders.
             </p>
             <div className="btndiv mt-10 flex items-center gap-2">
               {/* Telegram Button */}
@@ -63,7 +63,7 @@ function Introduction() {
                 <span className="text-new-500 text-xl font-semibold">
                   blockchain
                 </span>
-                , my journey includes:
+                , I have:
                 <ul className="mt-4 list-disc pl-8 text-white">
                   <li>
                     Expertise in{' '}
@@ -77,9 +77,39 @@ function Introduction() {
                     , enhancing smart contracts.
                   </li>
                   <li>
+                    Contributed to{' '}
+                    <span className="text-new-500 text-xl font-semibold">
+                      1000+
+                    </span>{' '}
+                    smart contracts.
+                  </li>
+                  <li>
+                    Advanced knowledge in{' '}
+                    <span className="text-new-500 text-xl font-semibold">
+                      EVM
+                    </span>
+                    ,{' '}
+                    <span className="text-new-500 text-xl font-semibold">
+                      Solidity
+                    </span>
+                    ,{' '}
+                    <span className="text-new-500 text-xl font-semibold">
+                      Huff
+                    </span>
+                    , and{' '}
+                    <span className="text-new-500 text-xl font-semibold">
+                      Yul.
+                    </span>
+                  </li>
+                  <li>
                     Key player in{' '}
                     <span className="text-new-500 text-xl font-semibold">
                       DeFi
+                    </span>{' '}
+                    and
+                    <span className="text-new-500 text-xl font-semibold">
+                      {' '}
+                      RWA
                     </span>{' '}
                     with{' '}
                     <span className="text-new-500 text-xl font-semibold">
@@ -90,13 +120,6 @@ function Introduction() {
                       ERC3643{' '}
                     </span>
                     standards.
-                  </li>
-                  <li>
-                    Contributed to{' '}
-                    <span className="text-new-500 text-xl font-semibold">
-                      1000+
-                    </span>{' '}
-                    smart contracts.
                   </li>
                 </ul>
               </p>
