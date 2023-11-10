@@ -4,53 +4,41 @@ function Services() {
   return (
     <section className="py-120">
       <div className="mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-5 gap-5 xl:gap-10 lg:gap-16 place-items-center mb-14">
+        <div className="mb-14 grid grid-cols-1 place-items-center gap-5 lg:grid-cols-2 lg:gap-16 xl:grid-cols-5 xl:gap-10">
           <div className="xl:col-span-2">
-            <h2 className="text-white font-bold lg:text-5xl text-4xl capitalize leading-snug chaindiv">
+            <h2 className="chaindiv text-4xl font-bold capitalize leading-snug text-white lg:text-5xl">
               <span className="bchain">Blockchain</span>
               <span className="relative">
-                <span className="relative z-20 bchain"> Expert! </span>
-                <svg
-                  className="absolute  -left-1 z-0 -top-2 hidden md:block"
-                  width="206"
-                  height="75"
-                  viewBox="0 0 206 75"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M27.1282 14.4113C66.5337 9.03391 151.827 4.45371 187.897 15.4254C226.745 27.2424 180.759 53.1141 129.951 64.6499C77.3856 76.585 18.356 73.496 6.50757 58.6571C-13.495 33.6061 61.3156 8.13765 120.395 3.11796"
-                    stroke="#DAED1A"
-                    strokeWidth="6"
-                    strokeLinecap="round"
-                  />
-                </svg>
+                <span className="relative inline-block before:absolute before:-inset-0 before:block before:-skew-y-3 before:bg-white">
+                  <span className="bchain relative z-20 text-black">
+                    {' '}
+                    Expert!
+                  </span>
+                </span>
                 <span className="bchain">Let's Dive In.</span>
               </span>
             </h2>
           </div>
           <div className="xl:col-span-3">
-            <p className="text-white text-xl bchainpara">
+            <p className="bchainpara text-xl text-white">
               Navigating the world of smart contracts, EVM and Solidity with
               precision. Let's revolutionize blockchain solutions together.
             </p>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
-          <div className="bg-interface-600 rounded-xl border border-[#494C5F] rounded-custom p-6 overflow-hidden relative hover:shadow-custom transition-all hover:border-porange-500">
-            <span className="text-white font-bold lg:text-4xl text-4xl capitalize leading-snug ">
+        <div className="grid grid-cols-1 gap-7 md:grid-cols-2 lg:grid-cols-3">
+          <div className="bg-interface-600 rounded-custom hover:shadow-custom hover:border-porange-500 relative overflow-hidden rounded-xl border border-[#494C5F] p-6 transition-all">
+            <span className="text-4xl font-bold capitalize leading-snug text-white lg:text-4xl ">
               <span className="servicetext">Smart Contract</span>
               <br />
               <span className="servicetext">Specialist</span>
             </span>
-            <div className="w-36 h-36 rounded-full inline-flex items-center justify-center bg-porange-700 bg-opacity-10 absolute -right-5 -top-5">
+            <div className="bg-porange-700 absolute -right-5 -top-5 inline-flex h-36 w-36 items-center justify-center rounded-full bg-opacity-10">
               <svg
                 className="stroke-new-500"
                 width="58"
                 height="58"
                 viewBox="0 0 58 58"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
               >
                 <path
                   d="M50.7949 56.2427H12.2161C9.49188 56.2427 7.20703 54.0457 7.20703 51.2336V5.27296C7.20703 3.33963 8.78885 1.75781 10.7222 1.75781H47.1919C49.1252 1.75781 50.707 3.33963 50.707 5.27296V56.2427H50.7949Z"
@@ -131,18 +119,18 @@ function Services() {
                 />
               </svg>
             </div>
-            <p className="text-lg text-white text-interface-200 mb-3 mt-4">
+            <p className="text-interface-200 mb-3 mt-4 text-lg text-white">
               Crafting secure and efficient smart contracts. Every piece of code
               is tested, ready for deployment, and well-documented.
             </p>
           </div>
-          <div className="bg-interface-600 rounded-xl border border-[#494C5F] rounded-custom p-6 overflow-hidden relative hover:shadow-custom transition-all hover:border-porange-500">
-            <span className="text-white font-bold lg:text-4xl text-4xl capitalize leading-snug ">
+          <div className="bg-interface-600 rounded-custom hover:shadow-custom hover:border-porange-500 relative overflow-hidden rounded-xl border border-[#494C5F] p-6 transition-all">
+            <span className="text-4xl font-bold capitalize leading-snug text-white lg:text-4xl ">
               <span className="servicetext">Quality Code</span>
               <br />
               <span className="servicetext">Assurance</span>
             </span>
-            <div className="w-36 h-36 rounded-full inline-flex items-center justify-center bg-white bg-opacity-10 absolute -right-5 -top-5">
+            <div className="absolute -right-5 -top-5 inline-flex h-36 w-36 items-center justify-center rounded-full bg-white bg-opacity-10">
               <svg
                 width="110"
                 height="110"
@@ -384,18 +372,18 @@ function Services() {
                 />
               </svg>
             </div>
-            <p className="text-lg text-white text-interface-200 mb-3 mt-4">
+            <p className="text-interface-200 mb-3 mt-4 text-lg text-white">
               Delivering top-tier, best practice code. Ensuring every project is
               of the highest standard, from documentation to deployment.
             </p>
           </div>
-          <div className="bg-interface-600 rounded-xl border border-[#494C5F] rounded-custom p-6 overflow-hidden relative hover:shadow-custom transition-all hover:border-porange-500">
-            <span className="text-white font-bold lg:text-4xl text-4xl capitalize leading-snug ">
+          <div className="bg-interface-600 rounded-custom hover:shadow-custom hover:border-porange-500 relative overflow-hidden rounded-xl border border-[#494C5F] p-6 transition-all">
+            <span className="text-4xl font-bold capitalize leading-snug text-white lg:text-4xl ">
               <span className="servicetext">DeFi</span>
               <br />
               <span className="servicetext">Innovator</span>
             </span>
-            <div className="w-36 h-36 rounded-full inline-flex items-center justify-center bg-seagreen-500 bg-opacity-10 absolute -right-5 -top-5">
+            <div className="bg-seagreen-500 absolute -right-5 -top-5 inline-flex h-36 w-36 items-center justify-center rounded-full bg-opacity-10">
               <img
                 src="assets/images/icons/pd.svg"
                 alt="Adam Boudjemaa's blockchain developer profile icon"
@@ -403,17 +391,17 @@ function Services() {
                 height="75"
               />
             </div>
-            <p className="text-lg text-white text-interface-200 mb-3 mt-4">
+            <p className="text-interface-200 mb-3 mt-4 text-lg text-white">
               Leading the way in Decentralized Finance. Building solutions that
               redefine how we interact with digital assets.
             </p>
           </div>
-          <div className="bg-interface-600 rounded-xl border border-[#494C5F] rounded-custom p-6 overflow-hidden relative hover:shadow-custom transition-all hover:border-porange-500">
-            <span className="text-white font-bold lg:text-4xl text-4xl capitalize leading-snug ">
+          <div className="bg-interface-600 rounded-custom hover:shadow-custom hover:border-porange-500 relative overflow-hidden rounded-xl border border-[#494C5F] p-6 transition-all">
+            <span className="text-4xl font-bold capitalize leading-snug text-white lg:text-4xl ">
               <span className="servicetext">DApp</span> <br />
               <span className="servicetext">Development</span>
             </span>
-            <div className="w-36 h-36 rounded-full inline-flex items-center justify-center bg-orange-500 bg-opacity-10 absolute -right-5 -top-5">
+            <div className="absolute -right-5 -top-5 inline-flex h-36 w-36 items-center justify-center rounded-full bg-orange-500 bg-opacity-10">
               <svg
                 className="stroke-new-500"
                 width="58"
@@ -522,18 +510,18 @@ function Services() {
                 </defs>
               </svg>
             </div>
-            <p className="text-lg text-white text-interface-200 mb-3 mt-4">
+            <p className="text-interface-200 mb-3 mt-4 text-lg text-white">
               End-to-end decentralized app creation. From front-end to back-end,
               ensuring a seamless and powerful user experience.
             </p>
           </div>
-          <div className="bg-interface-600 rounded-xl border border-[#494C5F] rounded-custom p-6 overflow-hidden relative hover:shadow-custom transition-all hover:border-porange-500">
-            <span className="text-white font-bold lg:text-4xl text-4xl capitalize leading-snug ">
+          <div className="bg-interface-600 rounded-custom hover:shadow-custom hover:border-porange-500 relative overflow-hidden rounded-xl border border-[#494C5F] p-6 transition-all">
+            <span className="text-4xl font-bold capitalize leading-snug text-white lg:text-4xl ">
               <span className="servicetext">Optimization</span>
               <br />
               <span className="servicetext">Maestro</span>
             </span>
-            <div className="w-36 h-36 rounded-full inline-flex items-center justify-center bg-porange-700 bg-opacity-10 absolute -right-5 -top-5">
+            <div className="bg-porange-700 absolute -right-5 -top-5 inline-flex h-36 w-36 items-center justify-center rounded-full bg-opacity-10">
               <img
                 src="assets/images/icons/cont.svg"
                 alt="Contact Adam for smart contract and web3 development"
@@ -541,18 +529,18 @@ function Services() {
                 height="75"
               />
             </div>
-            <p className="text-lg text-white text-interface-200 mb-3 mt-4">
+            <p className="text-interface-200 mb-3 mt-4 text-lg text-white">
               Pushing the boundaries with Assembly, Yul, and Huff. Ensuring your
               projects are optimized for maximum efficiency.
             </p>
           </div>
-          <div className="bg-interface-600 rounded-xl border border-[#494C5F] rounded-custom p-6 overflow-hidden relative hover:shadow-custom transition-all hover:border-porange-500">
-            <span className="text-white font-bold lg:text-4xl text-4xl capitalize leading-snug">
+          <div className="bg-interface-600 rounded-custom hover:shadow-custom hover:border-porange-500 relative overflow-hidden rounded-xl border border-[#494C5F] p-6 transition-all">
+            <span className="text-4xl font-bold capitalize leading-snug text-white lg:text-4xl">
               <span className="servicetext"> RWA</span>
               <br />
               <span className="servicetext">Pioneer</span>
             </span>
-            <div className="w-36 h-36 rounded-full inline-flex items-center justify-center bg-sky-500 absolute -right-5 -top-5">
+            <div className="absolute -right-5 -top-5 inline-flex h-36 w-36 items-center justify-center rounded-full bg-sky-500">
               <img
                 src="assets/images/icons/search.svg"
                 alt="Search for blockchain and solidity resources"
@@ -560,7 +548,7 @@ function Services() {
                 height="75"
               />
             </div>
-            <p className="text-lg text-white text-interface-200 mb-3 mt-4">
+            <p className="text-interface-200 mb-3 mt-4 text-lg text-white">
               Behind the creation of ERC-3643 and ERC-6960 main standards for
               RWA. Bridging tangible Real World Assets with blockchain, making
               tokenization seamless and meaningful.

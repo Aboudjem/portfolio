@@ -11,7 +11,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function Footer() {
   return (
     <footer
-      className="py-5 border-b border-[#1C2134]"
+      className="border-b border-[#1C2134] py-5"
       style={{
         background:
           "url('assets/images/bg/dev-ft-bg.jpg') no-repeat center center/cover"
@@ -24,7 +24,7 @@ function Footer() {
             {/* Twitter */}
             <a
               href="https://twitter.com/AdamBoudj"
-              className="text-white hover:bg-new-500 hover:text-interface-100 transition-all text-lg sm:text-xl md:text-2xl lg:text-3xl w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-14 lg:h-14 rounded-full bg-opacity-10 flex justify-center items-center"
+              className="hover:bg-new-500 hover:text-interface-100 flex h-8 w-8 items-center justify-center rounded-full bg-opacity-10 text-lg text-white transition-all sm:h-10 sm:w-10 sm:text-xl md:h-12 md:w-12 md:text-2xl lg:h-14 lg:w-14 lg:text-3xl"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Follow Adam Boudjemaa on Twitter"
@@ -35,7 +35,7 @@ function Footer() {
             {/* LinkedIn */}
             <a
               href="https://www.linkedin.com/in/adam-boudjemaa"
-              className="text-white hover:bg-new-500 hover:text-interface-100 transition-all text-lg sm:text-xl md:text-2xl lg:text-3xl w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-14 lg:h-14 rounded-full bg-opacity-10 flex justify-center items-center"
+              className="hover:bg-new-500 hover:text-interface-100 flex h-8 w-8 items-center justify-center rounded-full bg-opacity-10 text-lg text-white transition-all sm:h-10 sm:w-10 sm:text-xl md:h-12 md:w-12 md:text-2xl lg:h-14 lg:w-14 lg:text-3xl"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Connect with Adam Boudjemaa on LinkedIn"
@@ -46,7 +46,7 @@ function Footer() {
             {/* Medium */}
             <a
               href="https://medium.com/@adamboudj"
-              className="text-white hover:bg-new-500 hover:text-interface-100 transition-all text-lg sm:text-xl md:text-2xl lg:text-3xl w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-14 lg:h-14 rounded-full bg-opacity-10 flex justify-center items-center"
+              className="hover:bg-new-500 hover:text-interface-100 flex h-8 w-8 items-center justify-center rounded-full bg-opacity-10 text-lg text-white transition-all sm:h-10 sm:w-10 sm:text-xl md:h-12 md:w-12 md:text-2xl lg:h-14 lg:w-14 lg:text-3xl"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Read Adam Boudjemaa's articles on Medium"
@@ -57,7 +57,7 @@ function Footer() {
             {/* Telegram */}
             <a
               href="https://t.me/adamboudj"
-              className="text-white hover:bg-new-500 hover:text-interface-100 transition-all text-lg sm:text-xl md:text-2xl lg:text-3xl w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-14 lg:h-14 rounded-full bg-opacity-10 flex justify-center items-center"
+              className="hover:bg-new-500 hover:text-interface-100 flex h-8 w-8 items-center justify-center rounded-full bg-opacity-10 text-lg text-white transition-all sm:h-10 sm:w-10 sm:text-xl md:h-12 md:w-12 md:text-2xl lg:h-14 lg:w-14 lg:text-3xl"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Join Adam Boudjemaa on Telegram"
@@ -68,7 +68,7 @@ function Footer() {
             {/* GitHub */}
             <a
               href="https://github.com/Aboudjem"
-              className="text-white hover:bg-new-500 hover:text-interface-100 transition-all text-lg sm:text-xl md:text-2xl lg:text-3xl w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-14 lg:h-14 rounded-full bg-opacity-10 flex justify-center items-center"
+              className="hover:bg-new-500 hover:text-interface-100 flex h-8 w-8 items-center justify-center rounded-full bg-opacity-10 text-lg text-white transition-all sm:h-10 sm:w-10 sm:text-xl md:h-12 md:w-12 md:text-2xl lg:h-14 lg:w-14 lg:text-3xl"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="View Adam Boudjemaa's GitHub repositories"
@@ -79,7 +79,7 @@ function Footer() {
             {/* Stack Exchange */}
             <a
               href="https://ethereum.stackexchange.com/users/49141/adam-boudj"
-              className="text-white hover:bg-new-500 hover:text-interface-100 transition-all text-lg sm:text-xl md:text-2xl lg:text-3xl w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-14 lg:h-14 rounded-full bg-opacity-10 flex justify-center items-center"
+              className="hover:bg-new-500 hover:text-interface-100 flex h-8 w-8 items-center justify-center rounded-full bg-opacity-10 text-lg text-white transition-all sm:h-10 sm:w-10 sm:text-xl md:h-12 md:w-12 md:text-2xl lg:h-14 lg:w-14 lg:text-3xl"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Explore Adam Boudjemaa's contributions to Ethereum Stack Exchange"

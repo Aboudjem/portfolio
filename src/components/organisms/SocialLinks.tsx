@@ -5,7 +5,7 @@ function SocialLinks() {
   return (
     <section className="py-8">
       <div className="mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-7">
+        <div className="grid grid-cols-1 gap-7 md:grid-cols-2 lg:grid-cols-4">
           <div className="group">
             <SocialLink
               text="S. Overflow"
@@ -47,7 +47,7 @@ function SocialLinks() {
               link="https://github.com/Aboudjem"
               icon={
                 <svg
-                  className="fill-white group-hover:fill-interface-500"
+                  className="group-hover:fill-interface-500 fill-white"
                   width="40"
                   height="40"
                   viewBox="0 0 40 40"
@@ -80,7 +80,7 @@ function SocialLinks() {
               link="https://medium.com/@adamboudj"
               icon={
                 <svg
-                  className="fill-white group-hover:fill-interface-100"
+                  className="group-hover:fill-interface-100 fill-white"
                   width="40"
                   height="40"
                   viewBox="0 0 40 40"
@@ -101,7 +101,7 @@ function SocialLinks() {
               link="https://www.linkedin.com/in/adam-boudjemaa"
               icon={
                 <svg
-                  className="fill-white group-hover:fill-interface-100"
+                  className="group-hover:fill-interface-100 fill-white"
                   width="40"
                   height="40"
                   viewBox="0 0 40 40"

@@ -11,10 +11,10 @@ function Introduction() {
       }}
     >
       <div className="mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
-        <div className="flex flex-col gap-10 lg:flex-row lg:items-center pb-20">
+        <div className="flex flex-col gap-10 pb-20 lg:flex-row lg:items-center">
           {/* <!-- Left --> */}
           <div className="lg:w-1/2">
-            <div className="text-5xl leading-snug xl:text-[66px] mb-8 xl:leading-normal font-bold text-white topdiv">
+            <div className="topdiv mb-8 text-5xl font-bold leading-snug text-white xl:text-[66px] xl:leading-normal">
               <h1 className="toptext">Hey, I am</h1>
               <h2 className="text-new-500">Adam Boudjemaa</h2>
               <span
@@ -27,79 +27,76 @@ function Introduction() {
                 <span className="toptext2">Blockchain Lead</span>
               </span>
             </div>
-            <p className="text-2xl text-borderl-500 mb-4 toppara">
+            <p className="text-borderl-500 toppara mb-4 text-2xl">
               Turn your ideas into reality with trusted <br /> top-rated
               blockchain expertise.
             </p>
-            <div className="flex items-center gap-2 mt-10 btndiv">
+            <div className="btndiv mt-10 flex items-center gap-2">
               {/* Telegram Button */}
-              <a
-                href="https://t.me/adamboudj"
-                className="btn1 bg-telegram text-interface-100 py-4 rounded-lg inline-flex justify-center items-center font-medium transition-all ml-2"
-              >
-                <span>Telegram</span>
-                <FontAwesomeIcon
-                  icon={faTelegramPlane}
-                  style={{ margin: '0 8px' }}
-                />
+              <a href="https://t.me/adamboudj">
+                <button className="text-md group relative mb-2 mr-2 inline-flex items-center justify-center rounded-lg bg-gradient-to-br from-blue-600 to-cyan-500 p-0.5 group-hover:from-blue-600 group-hover:to-blue-500 dark:text-white">
+                  <span className="relative w-44 rounded-md px-5 py-2.5 font-bold transition-all duration-300  ease-in group-hover:bg-opacity-0 dark:bg-gray-900">
+                    <FontAwesomeIcon icon={faTelegramPlane} className="mr-2" />
+                    Telegram
+                  </span>
+                </button>
               </a>
 
               {/* Email Button */}
-              <a
-                href="mailto:adam@smart-contracts-developer.com"
-                className="btn1 bg-email text-interface-100 py-4 rounded-lg inline-flex justify-center items-center font-medium transition-all ml-2"
-              >
-                <span>Email </span>
-                <FontAwesomeIcon
-                  icon={faEnvelope}
-                  style={{ margin: '0 8px' }}
-                />
+              <a href="mailto:adam@smart-contracts-developer.com">
+                <button className="text-md group relative mb-2 mr-2 inline-flex items-center justify-center rounded-lg bg-gradient-to-br from-cyan-600 to-lime-500 p-0.5 group-hover:from-cyan-600 group-hover:to-lime-500 dark:text-white">
+                  <span className="relative w-44 rounded-md px-5 py-2.5 font-bold transition-all duration-300 ease-in group-hover:bg-opacity-0 dark:bg-gray-900">
+                    <FontAwesomeIcon icon={faEnvelope} className="mr-2" />
+                    Email
+                  </span>
+                </button>
               </a>
             </div>
+
             <div className="pt-14">
-              <p className="text-base text-white">
+              <p className="text-xl/8 text-white">
                 With{' '}
-                <span className="text-new-500 font-semibold text-xl">
+                <span className="text-new-500 text-xl font-semibold">
                   7 years
                 </span>{' '}
                 in{' '}
-                <span className="text-new-500 font-semibold text-xl">
+                <span className="text-new-500 text-xl font-semibold">
                   blockchain
                 </span>
                 , my journey includes:
-                <ul className="list-disc pl-8 mt-4 text-white">
+                <ul className="mt-4 list-disc pl-8 text-white">
                   <li>
                     Expertise in{' '}
-                    <span className="text-new-500 font-semibold text-xl">
+                    <span className="text-new-500 text-xl font-semibold">
                       EVM
                     </span>{' '}
                     and{' '}
-                    <span className="text-new-500 font-semibold text-xl">
+                    <span className="text-new-500 text-xl font-semibold">
                       Solidity
                     </span>
                     , enhancing smart contracts.
                   </li>
                   <li>
                     Key player in{' '}
-                    <span className="text-new-500 font-semibold text-xl">
+                    <span className="text-new-500 text-xl font-semibold">
                       DeFi
                     </span>{' '}
                     with{' '}
-                    <span className="text-new-500 font-semibold text-xl">
+                    <span className="text-new-500 text-xl font-semibold">
                       ERC6960
                     </span>{' '}
                     and{' '}
-                    <span className="text-new-500 font-semibold text-xl">
+                    <span className="text-new-500 text-xl font-semibold">
                       ERC3643{' '}
                     </span>
                     standards.
                   </li>
                   <li>
                     Contributed to{' '}
-                    <span className="text-new-500 font-semibold text-xl">
+                    <span className="text-new-500 text-xl font-semibold">
                       1000+
                     </span>{' '}
-                    smart contracts, supporting blockchain progress.
+                    smart contracts.
                   </li>
                 </ul>
               </p>
