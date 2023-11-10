@@ -10,13 +10,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Footer() {
   return (
-    <footer
-      className="border-b border-[#1C2134] py-5"
-      style={{
-        background:
-          "url('assets/images/bg/dev-ft-bg.jpg') no-repeat center center/cover"
-      }}
-    >
+    <footer className="border-b border-[#1C2134] py-5">
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap justify-center">
           <div className="mt-5 flex justify-center space-x-2 sm:space-x-3 md:space-x-4 lg:space-x-6">
