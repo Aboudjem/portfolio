@@ -19,6 +19,27 @@ import Arcelormittal from '../atoms/icons/Arcelormittal';
 import Biconomy from '../atoms/icons/Biconomy';
 
 function Resume() {
+  interface Tool {
+    id: string;
+    className?: string;
+    IconComponent: React.ComponentType<{ className?: string }>; // Allow a className prop
+  }
+
+  const Tools: Tool[] = [
+    // List of tools for easy management and mapping
+
+    { id: 'solidity', IconComponent: Solidity },
+    { id: 'hardhat', IconComponent: Hardhat },
+    { id: 'javascript', IconComponent: Javascript },
+    { id: 'typescript', IconComponent: Typescript },
+    { id: 'nodejs', IconComponent: Nodejs },
+    { id: 'reactjs', IconComponent: Reactjs },
+    { id: 'nextjs', IconComponent: Nextjs },
+    { id: 'chainlink', IconComponent: Chainlink },
+    { id: 'ipfs', IconComponent: IPFS },
+    { id: 'socketio', IconComponent: Socket }
+  ];
+
   return (
     <section className="pb-120">
       <div className="mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
@@ -99,7 +120,7 @@ function Resume() {
                       spy={true}
                       smooth={true}
                       duration={500}
-                      href="#erc6960"
+                      href="#erc3643"
                     >
                       ERC-6960
                     </Link>
@@ -312,42 +333,19 @@ function Resume() {
             </div>
             {/* <!-- Right Col--> */}
             <div>
-              <div className="border-b border-[#494C5F] pb-3">
-                <h3 className="text-borderl-500 text-2xl">
-                  Tools I use every day
-                </h3>
+              <div className="border-b border-[#494C5F]">
+                <h3 className="text-2xl text-white">Tools I use every day</h3>
               </div>
-              <ul className="tools-align-center mt-7 flex flex-wrap gap-x-12 gap-y-7">
-                <li className="hover:bg-new-500 rounded-md bg-[#16213B] transition">
-                  <Solidity />
-                </li>
-                <li className="hover:bg-new-500 rounded-md bg-[#16213B] transition">
-                  <Hardhat />
-                </li>
-                <li className="hover:bg-new-500 rounded-md bg-[#16213B] transition">
-                  <IPFS />
-                </li>
-                <li className="hover:bg-new-500 rounded-md bg-[#16213B] transition">
-                  <Chainlink />
-                </li>
-                <li className="hover:bg-new-500 rounded-md bg-[#16213B] transition">
-                  <Nodejs />
-                </li>
-                <li className="hover:bg-new-500 rounded-md bg-[#16213B] transition">
-                  <Nextjs />
-                </li>
-                <li className="hover:bg-new-500 rounded-md bg-[#16213B] transition">
-                  <Reactjs />
-                </li>
-                <li className="hover:bg-new-500 rounded-md bg-[#16213B] transition">
-                  <Socket />
-                </li>
-                <li className="hover:bg-new-500 rounded-md bg-[#16213B] transition">
-                  <Javascript />
-                </li>
-                <li className="hover:bg-new-500 rounded-md bg-[#16213B] transition">
-                  <Typescript />
-                </li>
+              <ul className="mt-7 flex flex-wrap gap-x-8 gap-y-7">
+                {Tools.map((tool: Tool) => (
+                  <li
+                    key={tool.id}
+                    className="flex items-center justify-center rounded-md bg-[#3c4a69] p-4"
+                    aria-label={`Tool ${tool.id}`}
+                  >
+                    <tool.IconComponent className="tool-item h-full w-full object-contain" />
+                  </li>
+                ))}
               </ul>
             </div>
           </div>

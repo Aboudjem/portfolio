@@ -11,9 +11,9 @@ function Introduction() {
           <div className="lg:w-1/2">
             <div className="topdiv mb-8 text-5xl font-bold leading-snug text-white xl:text-[66px] xl:leading-normal">
               <h1 className="toptext2">Smart Contracts Developer</h1>
-              <h2 className="text-new-500">Adam Boudjemaa</h2>
+              <h2 className="text-new-500 mt-6">Adam Boudjemaa</h2>
               <span className="wideLine inline-block">
-                <span className="toptext2">Solidity | Web3</span>
+                <span className="toptext2">Solidity & Web3</span>
               </span>
             </div>
             <p className="text-borderl-500 toppara mb-4 text-2xl">

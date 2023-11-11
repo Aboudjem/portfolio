@@ -103,3 +103,11 @@
 .projectBackground5 {
   background: url('/public/assets/images/core/erc1155-evm-yul-assembly.webp') no-repeat center center/cover;
 }
+
+.tool-item {
+  transition: transform 0.4s ease;
+}
+
+.tool-item:hover {
+  transform: scale(1.3);
+}
