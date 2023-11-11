@@ -1,4 +1,5 @@
-import React from 'react';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { Link } from 'react-scroll/modules';
 import Solidity from '../atoms/icons/Solidity';
 import Hardhat from '../atoms/icons/Hardhat';
 import IPFS from '../atoms/icons/IPFS';
@@ -76,13 +77,15 @@ function Resume() {
                 <li className="mt-5 text-lg leading-normal text-white">
                   Co-authored{' '}
                   <span className="text-new-500 highlight text-xl font-semibold">
-                    <a
-                      href="https://eips.ethereum.org/EIPS/eip-3643"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                    <Link
+                      to="erc3643"
+                      style={{ cursor: 'pointer' }}
+                      spy={true}
+                      smooth={true}
+                      duration={500}
                     >
                       ERC-3643
-                    </a>
+                    </Link>
                   </span>
                   , the most used standard for security tokens and tokenizing
                   real-world assets.
@@ -90,13 +93,15 @@ function Resume() {
                 <li className="mt-5 text-lg leading-normal text-white">
                   Authored{' '}
                   <span className="text-new-500 highlight text-xl font-semibold">
-                    <a
-                      href="https://eips.ethereum.org/EIPS/eip-6960"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                    <Link
+                      to="erc6960"
+                      style={{ cursor: 'pointer' }}
+                      spy={true}
+                      smooth={true}
+                      duration={500}
                     >
                       ERC-6960
-                    </a>
+                    </Link>
                   </span>{' '}
                   (Dual Layer Token - DLT) for fractionalizing real-world assets
                   (RWA).

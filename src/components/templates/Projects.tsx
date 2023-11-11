@@ -35,6 +35,7 @@ function Projects() {
         <div className="grid grid-cols-1 gap-y-5 md:grid-cols-2 md:gap-5 lg:grid-cols-3 lg:gap-7">
           {/* <!-- Single Item --> */}
           <div
+            id="erc3643"
             className="group relative min-h-[370px] cursor-pointer overflow-hidden rounded-lg"
             style={{
               background:
@@ -43,20 +44,12 @@ function Projects() {
           >
             <div className="bg-interface-100 absolute flex h-full w-full flex-col items-center justify-center rounded-lg bg-opacity-0 transition-opacity duration-500 ease-in-out group-hover:bg-opacity-80">
               <div className="invisible flex max-w-xs translate-y-24 transform flex-col items-center justify-center text-center opacity-0 transition-transform duration-700 ease-in-out group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
-                <h3 className="text-white">
-                  <a
-                    href="https://eips.ethereum.org/EIPS/eip-3643"
-                    className="text-3xl font-semibold text-white"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    ERC-3643
-                  </a>
-                </h3>
+                <h3 className="text-3xl font-semibold text-white">ERC-3643</h3>
                 <span className="flex items-center gap-2 text-white">
                   <span className="bg-new-500 inline-block h-2 w-2 rounded-full"></span>
-                  T-REX The leading standard for on-chain Real-World Asset
-                  tokenization
+                  ERC3643, also known as T-Rex, is a standard for tokenized
+                  securities, streamlining compliance and asset management on
+                  the blockchain.
                 </span>
                 <a
                   href="https://eips.ethereum.org/EIPS/eip-3643"
@@ -79,6 +72,7 @@ function Projects() {
           </div>
           {/* <!-- Single Item --> */}
           <div
+            id="erc6960"
             className="group relative min-h-[370px] cursor-pointer overflow-hidden rounded-lg lg:col-span-2"
             style={{
               background:
@@ -87,20 +81,12 @@ function Projects() {
           >
             <div className="bg-interface-100 absolute flex h-full w-full flex-col items-center justify-center rounded-lg bg-opacity-0 transition-opacity duration-500 ease-in-out group-hover:bg-opacity-80">
               <div className="invisible flex max-w-xs translate-y-24 transform flex-col items-center justify-center text-center opacity-0 transition-transform duration-700 ease-in-out group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
-                <h3 className="text-white">
-                  <a
-                    href="https://eips.ethereum.org/EIPS/eip-6960"
-                    className="text-3xl font-semibold text-white"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    ERC-6960
-                  </a>
-                </h3>
+                <h3 className="text-3xl font-semibold text-white">ERC-6960</h3>
                 <span className="flex items-center gap-2 text-white">
                   <span className="bg-new-500 inline-block h-2 w-2 rounded-full"></span>
-                  DLT Pioneering on-chain fractionalization of real-world
-                  assets.
+                  ERC6960 is a dual-layer token standard that provides enhanced
+                  security and flexibility for asset tokenization and
+                  decentralized finance applications.
                 </span>
                 <a
                   href="https://eips.ethereum.org/EIPS/eip-6960"
@@ -131,17 +117,13 @@ function Projects() {
           >
             <div className="bg-interface-100 absolute flex h-full w-full flex-col items-center justify-center rounded-lg bg-opacity-0 transition-opacity duration-500 ease-in-out group-hover:bg-opacity-80">
               <div className="invisible flex max-w-xs translate-y-24 transform flex-col items-center justify-center text-center opacity-0 transition-transform duration-700 ease-in-out group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
-                <h3 className="text-white">
-                  <a
-                    href="https://github.com/Aboudjem/Yul-ERC20-assembly"
-                    className="text-3xl font-semibold text-white"
-                  >
-                    Inline Assembly ERC20
-                  </a>
+                <h3 className="text-3xl font-semibold text-white">
+                  Inline Assembly ERC20
                 </h3>
                 <span className="flex items-center gap-2 text-white">
                   <span className="bg-new-500 inline-block h-2 w-2 rounded-full"></span>
-                  A hands-on ERC20 experiment using inline Assembly.
+                  Optimized ERC20 token implementation using inline assembly for
+                  lower gas costs and improved contract performance in Solidity
                 </span>
                 <a
                   href="https://github.com/Aboudjem/Yul-ERC20-assembly"
@@ -164,18 +146,14 @@ function Projects() {
           >
             <div className="bg-interface-100 absolute flex h-full w-full flex-col items-center justify-center rounded-lg bg-opacity-0 transition-opacity duration-500 ease-in-out group-hover:bg-opacity-80">
               <div className="invisible flex max-w-xs translate-y-24 transform flex-col items-center justify-center text-center opacity-0 transition-transform duration-700 ease-in-out group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
-                <h3 className="text-white">
-                  <a
-                    href="https://github.com/Aboudjem/staking-platform-fixed-apy"
-                    className="text-3xl font-semibold text-white"
-                  >
-                    Staking Platform
-                  </a>
+                <h3 className="text-3xl font-semibold text-white">
+                  Staking Platform
                 </h3>
                 <span className="flex items-center gap-2 text-white">
                   <span className="bg-new-500 inline-block h-2 w-2 rounded-full"></span>
-                  Secure, fixed APY with set duration, lockup, and max stake
-                  capabilities.
+                  A user-friendly staking platform designed to incentivize
+                  network participation with rewards for locking in
+                  cryptocurrencies.
                 </span>
                 <a
                   href="https://github.com/Aboudjem/staking-platform-fixed-apy"
@@ -198,17 +176,14 @@ function Projects() {
           >
             <div className="bg-interface-100 absolute flex h-full w-full flex-col items-center justify-center rounded-lg bg-opacity-0 transition-opacity duration-500 ease-in-out group-hover:bg-opacity-80">
               <div className="invisible flex max-w-xs translate-y-24 transform flex-col items-center justify-center text-center opacity-0 transition-transform duration-700 ease-in-out group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
-                <h3 className="text-white">
-                  <a
-                    href="https://github.com/Aboudjem/Yul-ERC1155-assembly"
-                    className="text-3xl font-semibold text-white"
-                  >
-                    Pure Yul ERC1155
-                  </a>
+                <h3 className="text-3xl font-semibold text-white">
+                  Pure Yul ERC1155
                 </h3>
                 <span className="flex items-center gap-2 text-white">
                   <span className="bg-new-500 inline-block h-2 w-2 rounded-full"></span>
-                  Crafted an ERC1155 token entirely with Yul Assembly.
+                  Developed a highly efficient ERC1155 token contract in pure
+                  Yul, achieving minimalistic code for multi-token transactions
+                  and reduced gas usage.{' '}
                 </span>
                 <a
                   href="https://github.com/Aboudjem/Yul-ERC1155-assembly"

@@ -14,7 +14,4 @@ if (container !== null) {
       <App />
     </React.StrictMode>
   );
-} else {
-  // Handle the error if the container is null
-  console.error('Failed to find the root element');
 }

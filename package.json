@@ -10,9 +10,11 @@
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
+    "@types/react-scroll": "^1.8.10",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "react-scroll": "^1.8.10",
     "typescript": "^4.9.0"
   },
   "scripts": {
@@ -23,7 +25,8 @@
     "lint": "tsc --noEmit && eslint src/**/*.ts{,x} --cache --max-warnings=0",
     "lint:fix": "eslint src/**/*.ts{,x} --fix",
     "build-css": "postcss public/assets/css/output.css -o public/assets/css/output.css",
-    "prettier-format": "prettier --config prettier.config.js 'src/**/*.ts' --write"
+    "prettier-format": "prettier --config prettier.config.js 'src/**/*.ts' --write",
+    "postbuild": "react-snap"
   },
   "eslintConfig": {
     "extends": [
@@ -63,6 +66,18 @@
     "prettier": "^3.0.3",
     "prettier-plugin-tailwindcss": "^0.5.7",
     "react-scripts": "^5.0.1",
+    "react-snap": "^1.23.0",
     "tailwindcss": "^3.3.5"
+  },
+  "reactSnap": {
+    "inlineCss": true,
+    "minifyHtml": {
+      "collapseWhitespace": true,
+      "removeComments": true,
+      "removeRedundantAttributes": true,
+      "removeScriptTypeAttributes": true,
+      "removeStyleLinkTypeAttributes": true,
+      "useShortDoctype": true
+    }
   }
 }
