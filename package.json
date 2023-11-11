@@ -78,6 +78,12 @@
       "removeScriptTypeAttributes": true,
       "removeStyleLinkTypeAttributes": true,
       "useShortDoctype": true
-    }
+    },
+    "puppeteerArgs": [
+      "--no-sandbox",
+      "--disable-setuid-sandbox"
+    ]
   }
 }
+
+
