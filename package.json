@@ -26,7 +26,7 @@
     "lint:fix": "eslint src/**/*.ts{,x} --fix",
     "build-css": "postcss public/assets/css/output.css -o public/assets/css/output.css",
     "prettier-format": "prettier --config prettier.config.js 'src/**/*.ts' --write",
-    "postbuild": "react-snap"
+    "postbuild": "react-snap --no-sandbox"
   },
   "eslintConfig": {
     "extends": [
