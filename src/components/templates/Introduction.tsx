@@ -21,24 +21,26 @@ function Introduction() {
               leaders.
             </p>
             <div className="btndiv mt-10 flex items-center gap-2">
-              {/* Telegram Button */}
-              <a href="https://t.me/adamboudj">
-                <button className="group relative mb-2 mr-2 inline-flex items-center justify-center rounded-lg bg-gradient-to-br from-blue-600 to-cyan-500 p-0.5 group-hover:from-blue-600 group-hover:to-blue-500 dark:text-white">
-                  <span className="relative flex w-44 items-center justify-center rounded-md px-5 py-2.5 font-bold transition-all duration-300 ease-in group-hover:bg-opacity-0 dark:bg-gray-900">
-                    <Telegram className="mr-2 h-6 w-6" />
-                    Telegram
-                  </span>
-                </button>
+              <a
+                href="https://t.me/adamboudj"
+                target="_blank"
+                className="group relative inline-flex w-40 items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-blue-600 to-cyan-500 px-7 py-2.5 font-bold text-white"
+                rel="noreferrer"
+              >
+                <div className="absolute h-[200%] w-[200%] translate-x-[-70%] rotate-45  bg-white/50 transition-all duration-500 group-hover:translate-x-[50%]"></div>
+                <Telegram className="mr-2 h-6 w-6" />
+                Telegram
               </a>
 
-              {/* Email Button */}
-              <a href="mailto:adam@smart-contracts-developer.com">
-                <button className="group relative mb-2 mr-2 inline-flex items-center justify-center rounded-lg bg-gradient-to-br from-cyan-600 to-lime-500 p-0.5 group-hover:from-cyan-600 group-hover:to-lime-500 dark:text-white">
-                  <span className="relative flex w-44 items-center justify-center rounded-md px-5 py-2.5 font-bold transition-all duration-300 ease-in group-hover:bg-opacity-0 dark:bg-gray-900">
-                    <Mail className="mr-2 h-6 w-6" />
-                    Email
-                  </span>
-                </button>
+              <a
+                href="mailto:adam@smart-contracts-developer.com"
+                target="_blank"
+                className="group relative inline-flex w-40 items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-cyan-600 to-lime-500 px-7 py-2.5 font-bold text-white"
+                rel="noreferrer"
+              >
+                <div className="absolute h-[200%] w-[200%] translate-x-[-70%] rotate-45  bg-white/50 transition-all duration-500 group-hover:translate-x-[50%]"></div>
+                <Mail className="mr-2 h-6 w-6" />
+                Mail
               </a>
             </div>
 

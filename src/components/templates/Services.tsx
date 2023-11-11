@@ -5,7 +5,7 @@ function Services() {
         <div className="mb-14 grid grid-cols-1 place-items-center gap-5 lg:grid-cols-2 lg:gap-16 xl:grid-cols-5 xl:gap-10">
           <div className="xl:col-span-2">
             <h2 className="chaindiv text-4xl font-bold capitalize leading-snug text-white lg:text-5xl">
-              <span className="bchain">Blockchain</span>
+              <span className="bchain">Your Blockchain </span>
               <span className="relative">
                 <span className="relative inline-block before:absolute before:-inset-0 before:block before:-skew-y-3 before:bg-white">
                   <span className="bchain relative z-20 text-black">
@@ -13,24 +13,19 @@ function Services() {
                     Expert!
                   </span>
                 </span>
-                <span className="bchain">Let's Dive In.</span>
+                <span className="bchain"> Let's Dive In.</span>
               </span>
             </h2>
           </div>
-          <div className="xl:col-span-3">
-            <p className="bchainpara text-xl text-white">
-              Crafting end-to-end DApp solutions, let’s innovate together! 🚀
-            </p>
-          </div>
         </div>
         <div className="grid grid-cols-1 gap-7 md:grid-cols-2 lg:grid-cols-3">
-          <div className="bg-interface-600 rounded-custom hover:shadow-custom hover:border-porange-500 relative overflow-hidden rounded-xl border border-[#494C5F] p-6 transition-all">
+          <div className="bg-interface-600 rounded-custom hover:shadow-custom relative overflow-hidden rounded-xl border border-[#494C5F] p-6 transition-all hover:border-purple-500">
             <span className="text-4xl font-bold capitalize leading-snug text-white lg:text-4xl ">
               <span className="servicetext">Smart Contract</span>
               <br />
               <span className="servicetext">Specialist</span>
             </span>
-            <div className="bg-porange-700 absolute -right-5 -top-5 inline-flex h-36 w-36 items-center justify-center rounded-full bg-opacity-10">
+            <div className="absolute -right-5 -top-5 inline-flex h-36 w-36 items-center justify-center rounded-full bg-purple-700 bg-opacity-10">
               <svg
                 className="stroke-new-500"
                 width="58"
@@ -121,7 +116,7 @@ function Services() {
               is tested, ready for deployment, and well-documented.
             </p>
           </div>
-          <div className="bg-interface-600 rounded-custom hover:shadow-custom hover:border-porange-500 relative overflow-hidden rounded-xl border border-[#494C5F] p-6 transition-all">
+          <div className="bg-interface-600 rounded-custom hover:shadow-custom relative overflow-hidden rounded-xl border border-[#494C5F] p-6 transition-all hover:border-purple-500">
             <span className="text-4xl font-bold capitalize leading-snug text-white lg:text-4xl ">
               <span className="servicetext">Quality Code</span>
               <br />
@@ -374,7 +369,7 @@ function Services() {
               of the highest standard, from documentation to deployment.
             </p>
           </div>
-          <div className="bg-interface-600 rounded-custom hover:shadow-custom hover:border-porange-500 relative overflow-hidden rounded-xl border border-[#494C5F] p-6 transition-all">
+          <div className="bg-interface-600 rounded-custom hover:shadow-custom relative overflow-hidden rounded-xl border border-[#494C5F] p-6 transition-all hover:border-purple-500">
             <span className="text-4xl font-bold capitalize leading-snug text-white lg:text-4xl ">
               <span className="servicetext">DeFi</span>
               <br />
@@ -393,7 +388,7 @@ function Services() {
               redefine how we interact with digital assets.
             </p>
           </div>
-          <div className="bg-interface-600 rounded-custom hover:shadow-custom hover:border-porange-500 relative overflow-hidden rounded-xl border border-[#494C5F] p-6 transition-all">
+          <div className="bg-interface-600 rounded-custom hover:shadow-custom relative overflow-hidden rounded-xl border border-[#494C5F] p-6 transition-all hover:border-purple-500">
             <span className="text-4xl font-bold capitalize leading-snug text-white lg:text-4xl ">
               <span className="servicetext">DApp</span> <br />
               <span className="servicetext">Development</span>
@@ -512,13 +507,13 @@ function Services() {
               ensuring a seamless and powerful user experience.
             </p>
           </div>
-          <div className="bg-interface-600 rounded-custom hover:shadow-custom hover:border-porange-500 relative overflow-hidden rounded-xl border border-[#494C5F] p-6 transition-all">
+          <div className="bg-interface-600 rounded-custom hover:shadow-custom relative overflow-hidden rounded-xl border border-[#494C5F] p-6 transition-all hover:border-purple-500">
             <span className="text-4xl font-bold capitalize leading-snug text-white lg:text-4xl ">
               <span className="servicetext">Optimization</span>
               <br />
               <span className="servicetext">Maestro</span>
             </span>
-            <div className="bg-porange-700 absolute -right-5 -top-5 inline-flex h-36 w-36 items-center justify-center rounded-full bg-opacity-10">
+            <div className="absolute -right-5 -top-5 inline-flex h-36 w-36 items-center justify-center rounded-full bg-purple-700 bg-opacity-10">
               <img
                 src="assets/images/icons/cont.svg"
                 alt="Contact Adam for smart contract and web3 development"
@@ -531,7 +526,7 @@ function Services() {
               projects are optimized for maximum efficiency.
             </p>
           </div>
-          <div className="bg-interface-600 rounded-custom hover:shadow-custom hover:border-porange-500 relative overflow-hidden rounded-xl border border-[#494C5F] p-6 transition-all">
+          <div className="bg-interface-600 rounded-custom hover:shadow-custom relative overflow-hidden rounded-xl border border-[#494C5F] p-6 transition-all hover:border-purple-500">
             <span className="text-4xl font-bold capitalize leading-snug text-white lg:text-4xl">
               <span className="servicetext"> RWA</span>
               <br />
