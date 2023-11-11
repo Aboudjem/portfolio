@@ -1,6 +1,5 @@
-import { faTelegramPlane } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Telegram from '../atoms/icons/social-medias/Telegram';
+import Mail from '../atoms/icons/social-medias/Mail';
 
 function Introduction() {
   return (
@@ -8,7 +7,7 @@ function Introduction() {
       <div className="mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
         <div className="flex flex-col gap-10 pb-20 lg:flex-row lg:items-center">
           {/* <!-- Left --> */}
-          <div className="lg:w-1/2">
+          <div className="order-2 lg:order-1 lg:w-1/2">
             <div className="topdiv mb-8 text-5xl font-bold leading-snug text-white xl:text-[66px] xl:leading-normal">
               <h1 className="toptext2">Smart Contracts Developer</h1>
               <h2 className="text-new-500 mt-6">Adam Boudjemaa</h2>
@@ -23,9 +22,9 @@ function Introduction() {
             <div className="btndiv mt-10 flex items-center gap-2">
               {/* Telegram Button */}
               <a href="https://t.me/adamboudj">
-                <button className="text-md group relative mb-2 mr-2 inline-flex items-center justify-center rounded-lg bg-gradient-to-br from-blue-600 to-cyan-500 p-0.5 group-hover:from-blue-600 group-hover:to-blue-500 dark:text-white">
-                  <span className="relative w-44 rounded-md px-5 py-2.5 font-bold transition-all duration-300  ease-in group-hover:bg-opacity-0 dark:bg-gray-900">
-                    <FontAwesomeIcon icon={faTelegramPlane} className="mr-2" />
+                <button className="group relative mb-2 mr-2 inline-flex items-center justify-center rounded-lg bg-gradient-to-br from-blue-600 to-cyan-500 p-0.5 group-hover:from-blue-600 group-hover:to-blue-500 dark:text-white">
+                  <span className="relative flex w-44 items-center justify-center rounded-md px-5 py-2.5 font-bold transition-all duration-300 ease-in group-hover:bg-opacity-0 dark:bg-gray-900">
+                    <Telegram className="mr-2 h-6 w-6" />
                     Telegram
                   </span>
                 </button>
@@ -33,9 +32,9 @@ function Introduction() {
 
               {/* Email Button */}
               <a href="mailto:adam@smart-contracts-developer.com">
-                <button className="text-md group relative mb-2 mr-2 inline-flex items-center justify-center rounded-lg bg-gradient-to-br from-cyan-600 to-lime-500 p-0.5 group-hover:from-cyan-600 group-hover:to-lime-500 dark:text-white">
-                  <span className="relative w-44 rounded-md px-5 py-2.5 font-bold transition-all duration-300 ease-in group-hover:bg-opacity-0 dark:bg-gray-900">
-                    <FontAwesomeIcon icon={faEnvelope} className="mr-2" />
+                <button className="group relative mb-2 mr-2 inline-flex items-center justify-center rounded-lg bg-gradient-to-br from-cyan-600 to-lime-500 p-0.5 group-hover:from-cyan-600 group-hover:to-lime-500 dark:text-white">
+                  <span className="relative flex w-44 items-center justify-center rounded-md px-5 py-2.5 font-bold transition-all duration-300 ease-in group-hover:bg-opacity-0 dark:bg-gray-900">
+                    <Mail className="mr-2 h-6 w-6" />
                     Email
                   </span>
                 </button>
@@ -115,7 +114,7 @@ function Introduction() {
             </div>
           </div>
           {/* <!-- Right --> */}
-          <div className="lg:w-1/2">
+          <div className="order-1 lg:order-2 lg:w-1/2">
             <div>
               <img
                 src="assets/images/core/adam-blockchain-web3-developer-solidity.webp"

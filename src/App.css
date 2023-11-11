@@ -62,11 +62,13 @@
 }
 
 .backgroundImage {
-  background: url('/public/assets/images/blockchain-background/web-three-bg.jpg') no-repeat center center/cover;
+  background: url('/public/assets/images/blockchain-background/web-three-bg.jpg')
+    no-repeat center center/cover;
 }
 
 .wideLine {
-  background: url('/public/assets/images/blockchain-background/wide-line.svg') no-repeat bottom;
+  background: url('/public/assets/images/blockchain-background/wide-line.svg')
+    no-repeat bottom;
 }
 
 .pb-120 {
@@ -85,23 +87,28 @@
 }
 
 .projectBackground1 {
-  background: url('/public/assets/images/core/security-tokens-t-rex-erc3643.webp') no-repeat center center/cover;
+  background: url('/public/assets/images/core/security-tokens-t-rex-erc3643.webp')
+    no-repeat center center/cover;
 }
 
 .projectBackground2 {
-  background: url('/public/assets/images/core/erc-6960-house-shared-ownership.webp') no-repeat center center/cover;
+  background: url('/public/assets/images/core/erc-6960-house-shared-ownership.webp')
+    no-repeat center center/cover;
 }
 
 .projectBackground3 {
-  background: url('/public/assets/images/core/erc-20-evm-inline-assembly-yul.webp') no-repeat center center/cover;
+  background: url('/public/assets/images/core/erc-20-evm-inline-assembly-yul.webp')
+    no-repeat center center/cover;
 }
 
 .projectBackground4 {
-  background: url('/public/assets/images/core/staking-platform-erc20-solidity.webp') no-repeat center center/cover;
+  background: url('/public/assets/images/core/staking-platform-erc20-solidity.webp')
+    no-repeat center center/cover;
 }
 
 .projectBackground5 {
-  background: url('/public/assets/images/core/erc1155-evm-yul-assembly.webp') no-repeat center center/cover;
+  background: url('/public/assets/images/core/erc1155-evm-yul-assembly.webp')
+    no-repeat center center/cover;
 }
 
 .tool-item {

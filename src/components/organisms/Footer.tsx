@@ -1,91 +1,83 @@
-import {
-  faGithub,
-  faLinkedin,
-  faMedium,
-  faStackExchange,
-  faTelegram,
-  faTwitter
-} from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React from 'react';
+import Twitter from '../atoms/icons/social-medias/Twitter';
+import Linkedin from '../atoms/icons/social-medias/Linkedin';
+import Medium from '../atoms/icons/social-medias/Medium';
+import Telegram from '../atoms/icons/social-medias/Telegram';
+import Github from '../atoms/icons/social-medias/Github';
+import StackExchange from '../atoms/icons/social-medias/Stackexchange';
 
-function Footer() {
+interface SocialLink {
+  href: string;
+  ariaLabel: string;
+  title: string;
+  Icon: React.ComponentType<React.SVGProps<SVGSVGElement>>;
+}
+
+const socialLinks: SocialLink[] = [
+  {
+    href: 'https://twitter.com/AdamBoudj',
+    ariaLabel: 'Follow Adam Boudjemaa on Twitter',
+    title: "Adam Boudjemaa's Twitter",
+    Icon: Twitter
+  },
+  {
+    href: 'https://www.linkedin.com/in/adam-boudjemaa',
+    ariaLabel: 'Connect with Adam Boudjemaa on LinkedIn',
+    title: "Adam Boudjemaa's LinkedIn",
+    Icon: Linkedin
+  },
+  {
+    href: 'https://medium.com/@adamboudj',
+    ariaLabel: "Read Adam Boudjemaa's articles on Medium",
+    title: "Adam Boudjemaa's Medium",
+    Icon: Medium
+  },
+  {
+    href: 'https://t.me/adamboudj',
+    ariaLabel: 'Join Adam Boudjemaa on Telegram',
+    title: "Adam Boudjemaa's Telegram",
+    Icon: Telegram
+  },
+  {
+    href: 'https://github.com/Aboudjem',
+    ariaLabel: "View Adam Boudjemaa's GitHub repositories",
+    title: "Adam Boudjemaa's GitHub",
+    Icon: Github
+  },
+  {
+    href: 'https://ethereum.stackexchange.com/users/49141/adam-boudj',
+    ariaLabel:
+      "Explore Adam Boudjemaa's contributions to Ethereum Stack Exchange",
+    title: "Adam Boudjemaa's Ethereum Stack Exchange",
+    Icon: StackExchange
+  }
+  // Add any more links as needed
+];
+
+const Footer: React.FC = () => {
   return (
     <footer className="border-b border-[#1C2134] py-5">
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap justify-center">
-          <div className="mt-5 flex justify-center space-x-2 sm:space-x-3 md:space-x-4 lg:space-x-6">
-            {' '}
-            {/* Twitter */}
-            <a
-              href="https://twitter.com/AdamBoudj"
-              className="hover:bg-new-500 hover:text-interface-100 flex h-8 w-8 items-center justify-center rounded-full bg-opacity-10 text-lg text-white transition-all sm:h-10 sm:w-10 sm:text-xl md:h-12 md:w-12 md:text-2xl lg:h-14 lg:w-14 lg:text-3xl"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Follow Adam Boudjemaa on Twitter"
-              title="Adam Boudjemaa's Twitter"
-            >
-              <FontAwesomeIcon icon={faTwitter} />
-            </a>
-            {/* LinkedIn */}
-            <a
-              href="https://www.linkedin.com/in/adam-boudjemaa"
-              className="hover:bg-new-500 hover:text-interface-100 flex h-8 w-8 items-center justify-center rounded-full bg-opacity-10 text-lg text-white transition-all sm:h-10 sm:w-10 sm:text-xl md:h-12 md:w-12 md:text-2xl lg:h-14 lg:w-14 lg:text-3xl"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Connect with Adam Boudjemaa on LinkedIn"
-              title="Adam Boudjemaa's LinkedIn"
-            >
-              <FontAwesomeIcon icon={faLinkedin} />
-            </a>
-            {/* Medium */}
-            <a
-              href="https://medium.com/@adamboudj"
-              className="hover:bg-new-500 hover:text-interface-100 flex h-8 w-8 items-center justify-center rounded-full bg-opacity-10 text-lg text-white transition-all sm:h-10 sm:w-10 sm:text-xl md:h-12 md:w-12 md:text-2xl lg:h-14 lg:w-14 lg:text-3xl"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Read Adam Boudjemaa's articles on Medium"
-              title="Adam Boudjemaa's Medium"
-            >
-              <FontAwesomeIcon icon={faMedium} />
-            </a>
-            {/* Telegram */}
-            <a
-              href="https://t.me/adamboudj"
-              className="hover:bg-new-500 hover:text-interface-100 flex h-8 w-8 items-center justify-center rounded-full bg-opacity-10 text-lg text-white transition-all sm:h-10 sm:w-10 sm:text-xl md:h-12 md:w-12 md:text-2xl lg:h-14 lg:w-14 lg:text-3xl"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Join Adam Boudjemaa on Telegram"
-              title="Adam Boudjemaa's Telegram"
-            >
-              <FontAwesomeIcon icon={faTelegram} />
-            </a>
-            {/* GitHub */}
-            <a
-              href="https://github.com/Aboudjem"
-              className="hover:bg-new-500 hover:text-interface-100 flex h-8 w-8 items-center justify-center rounded-full bg-opacity-10 text-lg text-white transition-all sm:h-10 sm:w-10 sm:text-xl md:h-12 md:w-12 md:text-2xl lg:h-14 lg:w-14 lg:text-3xl"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="View Adam Boudjemaa's GitHub repositories"
-              title="Adam Boudjemaa's GitHub"
-            >
-              <FontAwesomeIcon icon={faGithub} />
-            </a>
-            {/* Stack Exchange */}
-            <a
-              href="https://ethereum.stackexchange.com/users/49141/adam-boudj"
-              className="hover:bg-new-500 hover:text-interface-100 flex h-8 w-8 items-center justify-center rounded-full bg-opacity-10 text-lg text-white transition-all sm:h-10 sm:w-10 sm:text-xl md:h-12 md:w-12 md:text-2xl lg:h-14 lg:w-14 lg:text-3xl"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Explore Adam Boudjemaa's contributions to Ethereum Stack Exchange"
-              title="Adam Boudjemaa's Ethereum Stack Exchange"
-            >
-              <FontAwesomeIcon icon={faStackExchange} />
-            </a>
+          <div className="mt-5 flex space-x-2 sm:space-x-3 md:space-x-4 lg:space-x-6">
+            {socialLinks.map(({ href, ariaLabel, title, Icon }) => (
+              <a
+                key={href}
+                href={href}
+                className="flex h-12 w-12 transform justify-around transition-all duration-500 hover:scale-110"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={ariaLabel}
+                title={title}
+              >
+                <Icon className="group-hover:fill-current" />
+              </a>
+            ))}
           </div>
         </div>
       </div>
     </footer>
   );
-}
+};
 
 export default Footer;

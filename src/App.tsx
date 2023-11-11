@@ -1,6 +1,6 @@
 import './App.css';
 
-import React, { Suspense, lazy } from 'react';
+import { Suspense, lazy } from 'react';
 import Introduction from './components/templates/Introduction';
 import Resume from './components/templates/Resume';
 import Services from './components/templates/Services';

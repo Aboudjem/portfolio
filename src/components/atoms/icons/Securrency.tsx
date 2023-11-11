@@ -1,5 +1,3 @@
-import React from 'react';
-
 function Securrency() {
   return (
     <svg

@@ -1,5 +1,3 @@
-import React from 'react';
-
 function Projects() {
   return (
     <section className="pb-120">

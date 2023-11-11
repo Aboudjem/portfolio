@@ -1,4 +1,3 @@
-import React from 'react';
 import SocialLink from '../molecules/SocialLink';
 
 function SocialLinks() {

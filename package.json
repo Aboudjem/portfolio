@@ -3,11 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.4.2",
-    "@fortawesome/free-brands-svg-icons": "^6.4.2",
-    "@fortawesome/free-regular-svg-icons": "^6.4.2",
-    "@fortawesome/free-solid-svg-icons": "^6.4.2",
-    "@fortawesome/react-fontawesome": "^0.2.0",
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
     "@types/react-scroll": "^1.8.10",
@@ -26,7 +21,7 @@
     "lint:fix": "eslint src/**/*.ts{,x} --fix",
     "build-css": "postcss public/assets/css/output.css -o public/assets/css/output.css",
     "prettier-format": "prettier --config prettier.config.js 'src/**/*.ts' --write",
-    "postbuild": "react-snap --no-sandbox"
+    "postbuild": "react-snap"
   },
   "eslintConfig": {
     "extends": [
@@ -85,5 +80,3 @@
     ]
   }
 }
-
-
