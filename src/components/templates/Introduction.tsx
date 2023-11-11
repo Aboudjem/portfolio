@@ -1,5 +1,6 @@
 import Telegram from '../atoms/icons/social-medias/Telegram';
 import Mail from '../atoms/icons/social-medias/Mail';
+import ResponsiveImage from '../atoms/ResponsiveImage';
 
 function Introduction() {
   return (
@@ -116,9 +117,14 @@ function Introduction() {
           {/* <!-- Right --> */}
           <div className="order-1 lg:order-2 lg:w-1/2">
             <div>
-              <img
-                src="assets/images/core/adam-blockchain-web3-developer-solidity.webp"
-                alt="adam-boudjemaa-solidity-developer"
+              <ResponsiveImage
+                mobileSrc={
+                  'assets/images/core/adam-blockchain-smart-contracts.webp'
+                }
+                desktopSrc={
+                  'assets/images/core/adam-blockchain-web3-developer-solidity.webp'
+                }
+                alt={'adam-boudjemaa-solidity-smart-contracts-developer'}
                 width="888"
                 height="1000"
               />
