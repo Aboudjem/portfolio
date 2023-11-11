@@ -79,7 +79,7 @@ function Resume() {
                   <span className="text-new-500 highlight text-xl font-semibold">
                     <Link
                       to="erc3643"
-                      style={{ cursor: 'pointer' }}
+                      className="pointer"
                       spy={true}
                       smooth={true}
                       duration={500}
@@ -95,7 +95,7 @@ function Resume() {
                   <span className="text-new-500 highlight text-xl font-semibold">
                     <Link
                       to="erc6960"
-                      style={{ cursor: 'pointer' }}
+                      className="pointer"
                       spy={true}
                       smooth={true}
                       duration={500}

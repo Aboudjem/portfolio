@@ -36,11 +36,7 @@ function Projects() {
           {/* <!-- Single Item --> */}
           <div
             id="erc3643"
-            className="group relative min-h-[370px] cursor-pointer overflow-hidden rounded-lg"
-            style={{
-              background:
-                "url('assets/images/core/security-tokens-t-rex-erc3643.webp') no-repeat center center/cover"
-            }}
+            className="projectBackground1 group relative min-h-[370px] cursor-pointer overflow-hidden rounded-lg"
           >
             <div className="bg-interface-100 absolute flex h-full w-full flex-col items-center justify-center rounded-lg bg-opacity-0 transition-opacity duration-500 ease-in-out group-hover:bg-opacity-80">
               <div className="invisible flex max-w-xs translate-y-24 transform flex-col items-center justify-center text-center opacity-0 transition-transform duration-700 ease-in-out group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
@@ -73,11 +69,7 @@ function Projects() {
           {/* <!-- Single Item --> */}
           <div
             id="erc6960"
-            className="group relative min-h-[370px] cursor-pointer overflow-hidden rounded-lg lg:col-span-2"
-            style={{
-              background:
-                "url('assets/images/core/erc-6960-house-shared-ownership.webp') no-repeat center center/cover"
-            }}
+            className="projectBackground2 group relative min-h-[370px] cursor-pointer overflow-hidden rounded-lg lg:col-span-2"
           >
             <div className="bg-interface-100 absolute flex h-full w-full flex-col items-center justify-center rounded-lg bg-opacity-0 transition-opacity duration-500 ease-in-out group-hover:bg-opacity-80">
               <div className="invisible flex max-w-xs translate-y-24 transform flex-col items-center justify-center text-center opacity-0 transition-transform duration-700 ease-in-out group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
@@ -108,13 +100,7 @@ function Projects() {
             </div>
           </div>
           {/* <!-- Single Item --> */}
-          <div
-            className="group relative min-h-[370px] cursor-pointer overflow-hidden rounded-lg"
-            style={{
-              background:
-                "url('assets/images/core/erc-20-evm-inline-assembly-yul.webp') no-repeat center center/cover"
-            }}
-          >
+          <div className="projectBackground3 group relative min-h-[370px] cursor-pointer overflow-hidden rounded-lg">
             <div className="bg-interface-100 absolute flex h-full w-full flex-col items-center justify-center rounded-lg bg-opacity-0 transition-opacity duration-500 ease-in-out group-hover:bg-opacity-80">
               <div className="invisible flex max-w-xs translate-y-24 transform flex-col items-center justify-center text-center opacity-0 transition-transform duration-700 ease-in-out group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
                 <h3 className="text-3xl font-semibold text-white">
@@ -137,13 +123,7 @@ function Projects() {
             </div>
           </div>
           {/* <!-- Single Item --> */}
-          <div
-            className="group relative min-h-[370px] cursor-pointer overflow-hidden rounded-lg"
-            style={{
-              background:
-                "url('assets/images/core/staking-platform-erc20-solidity.webp') no-repeat center center/cover"
-            }}
-          >
+          <div className="projectBackground4 group relative min-h-[370px] cursor-pointer overflow-hidden rounded-lg">
             <div className="bg-interface-100 absolute flex h-full w-full flex-col items-center justify-center rounded-lg bg-opacity-0 transition-opacity duration-500 ease-in-out group-hover:bg-opacity-80">
               <div className="invisible flex max-w-xs translate-y-24 transform flex-col items-center justify-center text-center opacity-0 transition-transform duration-700 ease-in-out group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
                 <h3 className="text-3xl font-semibold text-white">
@@ -167,13 +147,7 @@ function Projects() {
             </div>
           </div>
           {/* <!-- Single Item --> */}
-          <div
-            className="group relative min-h-[370px] cursor-pointer overflow-hidden rounded-lg"
-            style={{
-              background:
-                "url('assets/images/core/erc1155-evm-yul-assembly.webp') no-repeat center center/cover"
-            }}
-          >
+          <div className="projectBackground5 group relative min-h-[370px] cursor-pointer overflow-hidden rounded-lg">
             <div className="bg-interface-100 absolute flex h-full w-full flex-col items-center justify-center rounded-lg bg-opacity-0 transition-opacity duration-500 ease-in-out group-hover:bg-opacity-80">
               <div className="invisible flex max-w-xs translate-y-24 transform flex-col items-center justify-center text-center opacity-0 transition-transform duration-700 ease-in-out group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
                 <h3 className="text-3xl font-semibold text-white">

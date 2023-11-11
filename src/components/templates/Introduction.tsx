@@ -4,12 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Introduction() {
   return (
-    <section
-      style={{
-        background:
-          "url('assets/images/blockchain-background/web-three-bg.jpg') no-repeat center center/cover"
-      }}
-    >
+    <section className="backgroundImage">
       <div className="mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
         <div className="flex flex-col gap-10 pb-20 lg:flex-row lg:items-center">
           {/* <!-- Left --> */}
@@ -17,13 +12,7 @@ function Introduction() {
             <div className="topdiv mb-8 text-5xl font-bold leading-snug text-white xl:text-[66px] xl:leading-normal">
               <h1 className="toptext2">Smart Contracts Developer</h1>
               <h2 className="text-new-500">Adam Boudjemaa</h2>
-              <span
-                className="inline-block"
-                style={{
-                  background:
-                    "url('assets/images/blockchain-background/wide-line.svg') no-repeat bottom"
-                }}
-              >
+              <span className="wideLine inline-block">
                 <span className="toptext2">Solidity | Web3</span>
               </span>
             </div>
