@@ -79,10 +79,10 @@ function Resume() {
                   <span className="text-new-500 highlight text-xl font-semibold">
                     <Link
                       to="erc3643"
-                      className="pointer"
                       spy={true}
                       smooth={true}
                       duration={500}
+                      href="#erc3643"
                     >
                       ERC-3643
                     </Link>
@@ -99,6 +99,7 @@ function Resume() {
                       spy={true}
                       smooth={true}
                       duration={500}
+                      href="#erc6960"
                     >
                       ERC-6960
                     </Link>
