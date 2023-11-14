@@ -17,6 +17,21 @@ function Services() {
               </span>
             </h2>
           </div>
+          <div className="xl:col-span-3">
+            <p className="text-md font-bold text-white">
+              Recognized by DesignRush among
+              <a
+                href="https://www.designrush.com/agency/website-design-development/trends/importance-of-website-design"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="text-new-500 text-xl font-semibold">
+                  {' '}
+                  Dubai's development companies elite
+                </span>
+              </a>
+            </p>
+          </div>
         </div>
         <div className="grid grid-cols-1 gap-7 md:grid-cols-2 lg:grid-cols-3">
           <div className="bg-interface-600 rounded-custom hover:shadow-custom relative overflow-hidden rounded-xl border border-[#494C5F] p-6 transition-all hover:border-purple-500">
